@@ -22,7 +22,7 @@ basic
 ---------------------------------------------------------------------*/
 
 body {
-     color: #666666;
+     color: #141414;
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
@@ -115,7 +115,7 @@ p {
      margin: 0px;
      padding: 0;
      font-weight: 400;
-     font-size: 17px;
+     font-size: 15px;
      line-height: 28px;
 }
 
@@ -137,8 +137,9 @@ a,
 }
 
 img {
-     max-width: 50%;
+     max-width: 100%;
      height: auto;
+     margin-bottom: 20px;
 }
 
  :focus {
@@ -167,7 +168,7 @@ img {
 }
 
 .navbar-form input {
-     border: none !important;
+     border: none;
 }
 
 .badge {
@@ -297,13 +298,12 @@ header
 ---------------------------------------------------------------------*/
 
 .header {
-     width: 100%;
-     background: rgb(5, 100, 5);
-     height: 100px;
-     padding: 30px 30px;
+     width: auto;
+     background: rgba(5, 100, 5, 0.507);
+     height: auto;
      position: fixed;
      z-index: 999;
-     box-shadow: 3px 0 13px rgba(30, 30, 30, 0.90);
+     box-shadow: 4px 0 13px rgba(58, 58, 58, 0.9);
 }
 
 
@@ -312,29 +312,30 @@ menu section
 ---------------------------------------------------------------------*/
 
 .navigation.navbar {
-     float: right;
-     padding: 0;
+     float: inline-end;
      position: relative;
+     align-content: center;
+     align-items: center;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 0px 30px;
-     color: #fff;
-     font-size: 17px;
-     line-height: 20px;
-     font-weight: 400;
+     padding: 48.4px;
+     align-content: flex-end;
+     color: rgb(245, 245, 245);
+     font-size: 18px;
+
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #fff;
+     color: rgb(240, 167, 11);
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #fff;
+     color: rgb(255, 255, 255);
 }
 
 .di_no {
@@ -364,7 +365,7 @@ ul.email li a {
 
 ul.email li i {
      color: #fff;
-     font-size: 19px;
+     font-size: 17px;
 }
 
 
@@ -374,9 +375,9 @@ ul.email li i {
      background-image: url('../images/Background.png');
      background-size: cover;
      background-repeat: no-repeat;
-     padding-top: 120px;
+     padding-top: 150px;
      position: relative;
-     height: 900px;
+     height: 870px;
      background-position: center;
 }
 
@@ -417,7 +418,7 @@ ul.email li i {
 
 .banner_main .bluid h1 {
      color: #fff;
-     font-size: 100px;
+     font-size: 80px;
      line-height: 110px;
      font-weight: bold;
      padding-bottom: 25px;
@@ -428,7 +429,7 @@ ul.email li i {
      line-height: 25px;
      font-weight: 500;
      padding-bottom: 50px;
-     font-size: 17px;
+     font-size: 16px;
 }
 
 .banner_main .bluid .read_more {
@@ -439,7 +440,7 @@ ul.email li i {
 
 .banner_main .bluid .read_more:hover {
      color: #fff;
-     background: #0e0b01;
+     background: #136801;
 }
 
 
